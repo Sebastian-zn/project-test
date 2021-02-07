@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  padding: 1% 0%;
+  font-size: 1.2em;
+  background-color: rgb(34, 34, 34);
+}
+
+.navbar li {
+  font-family: 'Cairo', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.5em;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar-brand span {
+  color: red;
+}
+
+.navbar-toggle {
+  width: fit-content;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+}
+
+#home {
+  background: url(../img/tlou2.jpg) no-repeat center center;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  border-bottom: 4px solid orangered;
+  font-family: 'Cairo', sans-serif;
+}
+
+.main-card {
+  top: 30%;
+  left: 185px;
+  width: 400px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  background-color: rgba(34, 34, 34, 0);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+.main-card-header {
+  text-align: center;
+}
+
+.main-card-header h2 {
+  color: #fff;
+  font-size: 3.5em;
+}
+
+.new-h2 {
+  color: #fff;
+  font-size: 1.8em;
+}
+
+.new-h3 {
+  color: blue;
+  font-size: 1.6em;
+}
+
+.new-bh3 {
+  color: yellow;
+}
+
+.new-p {
+  color: #fff;
+}
+
+.main-card-body {
+  padding: 0 20px;
+  color: rgb(175, 175, 175);
+
+}
+
+.buttons-title {
+  color: #fff;
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+#chart {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.padding {
+  padding: 80px 40px;
+}
+
+.card {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.card-bar {
+  padding: 0;
+  margin: 0;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.icon {
+  position: absolute;
+  top: 1%;
+  font-size: 2.5em;
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+}
+
+/* Media Querys */
+@media (max-width: 700px) {
+  .navbar-brand {
+    font-size: 1.8em;
+  }
+
+  .main-card {
+    top: 30%;
+    left: 20%;
+    width: 230px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+  }
+
+  .main-card-header h2 {
+    font-size: 2em;
+  }
+}
