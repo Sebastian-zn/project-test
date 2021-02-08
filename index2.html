@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles2.css">
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.8/vega.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.4/vega-lite.js'></script>
@@ -41,7 +41,7 @@
   <div id="home">
     <div class="main-card">
       <div class="main-card-header" id="main-card-header">
-        <h2 id="def-title">The Last Of Us II</h2>
+        <h2 id="def-title">Call of Duty MW</h2>
       </div>
       <hr>
       <div class="main-card-body" id="main-card-body">
@@ -53,11 +53,11 @@
       <h3 class="buttons-title" id="btn-message">¡Realiza tu voto!</h3>
       <div class="buttons" id="buttons">
         <div id="gButtonDiv">
-          <button type="button" onclick="like('The Last of Us II')" id="gButton" class="btn btn-primary"><i
+          <button type="button" onclick="like('Call Of Duty MW')" id="gButton" class="btn btn-primary"><i
               class="fas fa-thumbs-up"></i></button>
         </div>
         <div id="bButtonDiv">
-          <button type="button" onclick="dislike('The Last of Us II')" id="bButton" class="btn btn-warning"><i
+          <button type="button" onclick="dislike('Call Of Duty MW')" id="bButton" class="btn btn-warning"><i
               class="fas fa-thumbs-down"></i></button>
         </div>
       </div>
@@ -71,12 +71,12 @@
       <h2>Videojuegos Anteriores</h2>
       <div class="col-sm-12 col-md-6">
         <div class="card" style="width: 100%;">
-          <img src="img/codmw.jpg" class="card-img-top" alt="imagen videojuego">
+          <img src="img/tlou2.jpg" class="card-img-top" alt="imagen videojuego">
           <div class="card-body">
-            <h5 class="card-title" style="font-weight: bold;">Call of Duty MW</h5>
+            <h5 class="card-title" style="font-weight: bold;">The Last of Us Part II</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui inventore facilis quia
               commodi quidem dolor.</p>
-            <a href="index2.html" class="btn btn-warning">Ver detalle</a>
+            <a href="index.html" class="btn btn-warning">Ver detalle</a>
           </div>
         </div>
       </div>
@@ -203,8 +203,8 @@
       var dislikes = 0;
     } else {
       var obj = JSON.parse(localStorage.games);
-      var likes = obj['The Last of Us II'][0]['likes'];
-      var dislikes = obj['The Last of Us II'][0]['dislikes'];
+      var likes = obj['Call Of Duty MW'][0]['likes'];
+      var dislikes = obj['Call Of Duty MW'][0]['dislikes'];
     }
 
     var options = {
