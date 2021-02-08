@@ -22,7 +22,7 @@ gButton.addEventListener('click', () => {
   a.style.textDecoration = 'none';
   a.style.border = '1px solid #fff';
   a.style.borderRadius = '10px';
-  a.innerHTML = '<i class="fas fa-chevron-left"></i>' + ' ' + 'Cambiar voto';
+  a.innerHTML = '<i class="fas fa-chevron-left"></i>' + ' ' + 'Volver';
 
   // document.getElementById('main-card-header').innerHTML = '<h2 class="new-h2">' + h2.textContent + '</h2>';
   document.getElementById('main-card-body').innerHTML = '<h3 class="new-h3">' + h3.textContent + '</h3>' + '<p class="new-p">' + p.textContent + '</p>';
@@ -47,7 +47,7 @@ bButton.addEventListener('click', () => {
   a.style.textDecoration = 'none';
   a.style.border = '1px solid #fff';
   a.style.borderRadius = '10px';
-  a.innerHTML = '<i class="fas fa-chevron-left"></i>' + ' ' + 'Cambiar voto';
+  a.innerHTML = '<i class="fas fa-chevron-left"></i>' + ' ' + 'Volver';
 
   // document.getElementById('main-card-header').innerHTML = '<h2 class="new-h2">' + h2.textContent + '</h2>';
   document.getElementById('main-card-body').innerHTML = '<h3 class="new-bh3">' + h3.textContent + '</h3>' + '<p class="new-p">' + p.textContent + '</p>';
