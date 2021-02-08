@@ -14,7 +14,11 @@ https://sebastian-zn.github.io/project-test/
 - Para el diseño y desarrollo de wireframes se empleó la herramienta Balsamiq.
 - Con ayuda de GitHub Pages se pudo alojar el proyecto completo. 
 
-# Beneficios al Utilizar CSS Puro y Duro
+# Responsive Layout
+
+<img src=https://i.ibb.co/GTJ7Cdp/Captura1231.png width="200px">                   <img src=https://i.ibb.co/k0cnq8J/Captura2123.png width="200px">
+
+# Beneficios al Utilizar CSS Puro
 
 - Al ser un proyecto pequeño, no es necesario usar preprocesadores.
 - El proyecto será más liviano.
